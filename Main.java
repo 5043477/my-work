@@ -1,24 +1,21 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     //define an array with unknown elements
-    int[] arr1 = new int[7];
+    String[] arr1 = new String[10];
+    //then add the first String Array here
+    String[] ar1 = {"Nick","Dylan","bob","tom","joe","mary","linda","emma","olivia","isabella"}; 
     //define an array with known elements
-    int[] arr2 = {51,52,53,54,55};
+    String[] arr2 = {"Bryson","chris","jules","kyle","robert","george","devin","anna","alex","aiden","skye","audrey"};
+    System.out.println("the String arr1 is equal to ar1");
+  //then add your scanner here
+  Scanner scan = new Scanner(System.in);
 
-    int sum;
-    sum = 3;
-
-    arr1[0] = 4;
-    arr1[1] = arr2[1];
-    System.out.println(arr1[3]);
-    System.out.println(arr1[4]);
-
-    for(int index = 2; index < arr2.length; index++){
-      arr1[index] = arr2[index];
-      System.out.println(arr1[index]);
-    }
-    arr1[4] = 6;
-    arr1[2] = 7;
-    System.out.println(arr1[4] +" "+ arr1[2]);
+    System.out.println("what is the students name?");
+    String name = scan.next();
+    //then add your for loop here
+for(int index = 2; index < arr2.length; index++){
+   }
   }
 }
